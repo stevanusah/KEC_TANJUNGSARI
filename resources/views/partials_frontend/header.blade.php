@@ -66,7 +66,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img src="{{asset('assets_frontend/img/LogoKecamatan/kec__pamulihan.png')}}" class="logo logo-scrolled" alt="Logo">
+                        <img src="{{asset('assets_frontend/img/LogoKecamatan/kec__tanjungsari.png')}}" class="logo logo-scrolled" alt="Logo">
                     </a>
                 </div>
                 <!-- End Header Navigation -->
