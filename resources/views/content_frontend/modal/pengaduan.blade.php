@@ -1,7 +1,7 @@
  
  @php
  use App\Models\IdentitasSkpd;
- $identitas = IdentitasSkpd::where('user_id', '3')->where('is_active', 'Active')->first();
+ $identitas = IdentitasSkpd::where('user_id', '10')->where('is_active', 'Active')->first();
 @endphp
  <!-- Modal Show Detail Layanan -->
  <div class="modal fade modal-md" id="AddNew" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
