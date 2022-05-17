@@ -21,15 +21,15 @@ class HomeController extends Controller
     public function index()
     {
         $title = "Selamat datang di Website Kami!";
-        $berita = News::where('user_id', '3')->where('is_active', 'Active')->orderBy('created_at', 'DESC')->limit(3)->get();
-        $slider = Slider::where('user_id', '3')->where('is_active', 'Active')->orderBy('created_at', 'DESC')->limit(2)->get();
-        $detail_layanan = DetailLayanan::where('user_id', '3')->where('is_active', 'Active')->orderBy('created_at', 'DESC')->limit(6)->get();
-        $identitas = IdentitasSkpd::where('user_id', '3')->where('is_active', 'Active')->first();
-        $profil = Profil::where('user_id', '3')->where('is_active', 'Active')->first();
-        $regulasi = Regulasi::where('user_id', '3')->where('is_active', 'Active')->orderBy('created_at', 'DESC')->limit(6)->get();
-        $galeri = Galeri::where('user_id', '3')->where('is_active', 'Active')->orderBy('created_at', 'DESC')->limit(6)->get();
-        $capaian = Capaianskpd::where('user_id', '3')->where('is_active', 'Active')->first();
-        $demografi = Demografi::where('user_id', '3')->where('is_active', 'Active')->first();
+        $berita = News::where('user_id', '10')->where('is_active', 'Active')->orderBy('created_at', 'DESC')->limit(3)->get();
+        $slider = Slider::where('user_id', '10')->where('is_active', 'Active')->orderBy('created_at', 'DESC')->limit(2)->get();
+        $detail_layanan = DetailLayanan::where('user_id', '10')->where('is_active', 'Active')->orderBy('created_at', 'DESC')->limit(6)->get();
+        $identitas = IdentitasSkpd::where('user_id', '10')->where('is_active', 'Active')->first();
+        $profil = Profil::where('user_id', '10')->where('is_active', 'Active')->first();
+        $regulasi = Regulasi::where('user_id', '10')->where('is_active', 'Active')->orderBy('created_at', 'DESC')->limit(6)->get();
+        $galeri = Galeri::where('user_id', '10')->where('is_active', 'Active')->orderBy('created_at', 'DESC')->limit(6)->get();
+        $capaian = Capaianskpd::where('user_id', '10')->where('is_active', 'Active')->first();
+        $demografi = Demografi::where('user_id', '10')->where('is_active', 'Active')->first();
 
         return view('content_frontend.home', compact('berita', 'slider', 'identitas', 'profil', 'detail_layanan', 'regulasi', 'galeri', 'title', 'capaian', 'demografi'));
     }
