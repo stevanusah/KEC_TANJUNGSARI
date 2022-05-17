@@ -1,9 +1,9 @@
 @php
 use App\Models\News;
 use App\Models\IdentitasSkpd;
-$identitas = IdentitasSkpd::where('user_id', '3')->where('is_active', 'Active')->first();
+$identitas = IdentitasSkpd::where('user_id', '10')->where('is_active', 'Active')->first();
 
-$beritafooter = News::where('user_id', '3')->where('is_active', 'Active')->orderBy('created_at', 'DESC')->limit(2)->get();
+$beritafooter = News::where('user_id', '10')->where('is_active', 'Active')->orderBy('created_at', 'DESC')->limit(2)->get();
     
 @endphp
 <!-- Start Footer 
