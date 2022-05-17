@@ -63,7 +63,7 @@
                     <!-- Start Sidebar -->
                     @php
                         use App\Models\News;
-                        $berita_front = News::where('user_id', '3')->where('is_active', 'Active')->orderBy('created_at', 'DESC')->limit(3)->get();
+                        $berita_front = News::where('user_id', '10')->where('is_active', 'Active')->orderBy('created_at', 'DESC')->limit(3)->get();
                     @endphp
                     <div class="sidebar col-md-4">
                         <aside>
@@ -95,7 +95,7 @@
 
                             @php
                                 use App\Models\Galeri;
-                                $galeri_front = Galeri::where('user_id', '3')->where('is_active', 'Active')->orderBy('created_at', 'DESC')->limit(6)->get();
+                                $galeri_front = Galeri::where('user_id', '10')->where('is_active', 'Active')->orderBy('created_at', 'DESC')->limit(6)->get();
                             @endphp
                             <div class="sidebar-item gallery">
                                 <div class="title">
