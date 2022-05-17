@@ -12,7 +12,7 @@ class PpidController extends Controller
     public function index()
     {
         $title = "PPID";
-        $head_ppid = Ppid::where('user_id', '3')->where('is_active', 'Active')->first();
+        $head_ppid = Ppid::where('user_id', '10')->where('is_active', 'Active')->first();
         return view('content_frontend.view_ppid', compact('title', 'head_ppid'));
     }
 
@@ -23,7 +23,7 @@ class PpidController extends Controller
         $data = Dokumen::when($request->date, function ($query, $date) {
 
             $query->whereDate('created_at', $date);
-            $query->where('user_id', 3);
+            $query->where('user_id', 10);
         });
         //dd($data->toSql());
 
