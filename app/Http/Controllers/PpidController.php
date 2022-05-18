@@ -23,8 +23,9 @@ class PpidController extends Controller
         $data = Dokumen::when($request->date, function ($query, $date) {
 
             $query->whereDate('created_at', $date);
-            $query->where('user_id', 10);
-        });
+            
+        })
+           ->where('user_id', 10);
         //dd($data->toSql());
 
         return datatables($data)
