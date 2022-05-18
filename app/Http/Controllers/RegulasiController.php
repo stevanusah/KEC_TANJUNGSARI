@@ -27,7 +27,8 @@ class RegulasiController extends Controller
         $data = Regulasi::when($request->date, function ($query, $date) {
 
             $query->whereDate('created_at', $date);
-        });
+        })
+            ->where('user_id',10);
         //dd($data->toSql());
 
         return datatables($data)
