@@ -130,7 +130,7 @@ $beritafooter = News::where('user_id', '10')->where('is_active', 'Active')->orde
                 <div class="row">
                     <div class="col-md-12">
                         <div class="col-md-6">
-                            <p>&copy; Copyright 2022. All Rights Reserved by <a href="#">Prakom Underdog</a></p>
+                            <p>&copy; Copyright 2022. All Rights Reserved by <a href="#">Sumedang Happines Factory</a></p>
                         </div>
                         <div class="col-md-6 text-right link">
                             <ul>
