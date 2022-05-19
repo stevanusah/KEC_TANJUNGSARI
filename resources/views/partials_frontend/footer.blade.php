@@ -41,7 +41,7 @@ $beritafooter = News::where('user_id', '10')->where('is_active', 'Active')->orde
                     <!-- Single Item -->
                     <div class="col-md-4 item">
                         <div class="f-item about">
-                            <h4>Tentang Kami</h4>
+                            <h4 style="color:#fff;">Tentang Kami</h4>
                             <ul>
                                 <li>
                                     <i class="fas fa-map-marker-alt"></i>
@@ -69,7 +69,7 @@ $beritafooter = News::where('user_id', '10')->where('is_active', 'Active')->orde
                     <!-- Single Item -->
                     <div class="col-md-4 item">
                         <div class="f-item link full">
-                            <h4>Menu</h4>
+                            <h4 style="color:#fff;">Menu</h4>
                             <ul>
                                 <li>
                                     <a href="#">Beranda</a>
@@ -100,7 +100,7 @@ $beritafooter = News::where('user_id', '10')->where('is_active', 'Active')->orde
                     <!-- Single Item -->
                     <div class="col-md-4 item">
                         <div class="f-item twitter-widget">
-                            <h4>Berita Terbaru</h4>
+                            <h4 style="color:#fff;">Berita Terbaru</h4>
 
                             @foreach ($beritafooter as $item)
                             
