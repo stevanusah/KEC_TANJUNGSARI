@@ -54,8 +54,12 @@
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">
                     <ul>
-                        {{-- <li class="search"><a href="#"><i class="fa fa-search"></i></a></li> --}}
-                        <li class="btn"><a href="#">Hubungi Kami</a></li>
+                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                         </button>
+                         <a class="navbar-brand" href="https://www.lapor.go.id/"  target="_blank">
+                            <img src="{{asset('assets_frontend/img/lapor.png')}}" class="logo logo-scrolled" alt="Logo">
+                         </a>
                     </ul>
                 </div>        
                 <!-- End Atribute Navigation -->
