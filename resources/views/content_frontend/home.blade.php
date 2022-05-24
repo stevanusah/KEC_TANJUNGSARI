@@ -8,14 +8,15 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
 
-                <div class="item active bg-cover" style="background-image: url(https://portal-skpd.sumedangkab.go.id/storage/slider/sumedang.png);">
+                <div class="item active bg-cover" style="background-image: url(https://portal-skpd.sumedangkab.go.id/storage/slider/creative.png);">
                     <div class="box-table">
                         <div class="box-cell">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="content">
-                                            <h1 data-animation="animated slideInDown">Selamat Datang<strong> di</strong> Website Kami</h1>
+                                            <h1 style="color:white" data-animation="animated slideInDown">Selamat Datang<strong> di</strong> Website Kami</h1>
+                                            <h3 style="color:white" data-animation="animated slideInUp"> Sumedang Happiness Factory</h3>
                                         </div>
                                     </div>
                                 </div>
